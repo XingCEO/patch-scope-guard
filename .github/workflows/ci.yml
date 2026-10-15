@@ -16,3 +16,14 @@ jobs:
       - run: python -m pip install .
       - run: python -m unittest discover -v
       - run: patch-scope-guard examples/input.json
+      - run: patch-scope-guard --repo . --base HEAD --head HEAD --policy examples/policy.json --check
+      - name: Verify policy finding exit status
+        shell: bash
+        run: |
+          if patch-scope-guard examples/input.json --check; then
+            echo "Expected a policy violation"
+            exit 1
+          else
+            result=$?
+            test "$result" -eq 1
+          fi

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "patch-scope-guard"
-version = "0.1.0"
+version = "0.2.0"
 description = "Give coding agents a reviewable boundary for every proposed patch."
 readme = "README.md"
 requires-python = ">=3.11"

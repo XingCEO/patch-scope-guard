@@ -1,0 +1,5 @@
+{
+  "allow": ["src/*", "tests/*"],
+  "deny": [".github/*", "src/secrets/*"],
+  "max_changed_lines": 200
+}
