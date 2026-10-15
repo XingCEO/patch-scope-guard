@@ -1,0 +1,10 @@
+{
+  "diff": "diff --git a/src/cache.py b/src/cache.py\n--- a/src/cache.py\n+++ b/src/cache.py\n@@ -1 +1 @@\n-old\n+new\ndiff --git a/.github/workflows/ci.yml b/.github/workflows/ci.yml\n--- a/.github/workflows/ci.yml\n+++ b/.github/workflows/ci.yml\n@@ -1 +1 @@\n-old\n+new\n",
+  "allow": [
+    "src/*"
+  ],
+  "deny": [
+    ".github/*"
+  ],
+  "max_changed_lines": 20
+}

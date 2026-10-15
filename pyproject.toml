@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patch-scope-guard"
+version = "0.1.0"
+description = "Give coding agents a reviewable boundary for every proposed patch."
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "XingCEO"}]
+classifiers = ["Development Status :: 3 - Alpha", "Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License"]
+
+[project.scripts]
+patch-scope-guard = "patch_scope_guard:main"
+
+[project.urls]
+Repository = "https://github.com/XingCEO/patch-scope-guard"
+Issues = "https://github.com/XingCEO/patch-scope-guard/issues"
+
+[tool.setuptools]
+py-modules = ["patch_scope_guard"]

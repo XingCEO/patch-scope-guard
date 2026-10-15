@@ -1,0 +1,30 @@
+{
+  "changed_lines": 4,
+  "files": [
+    {
+      "added": 1,
+      "binary": false,
+      "deleted": 1,
+      "new": "src/cache.py",
+      "old": "src/cache.py"
+    },
+    {
+      "added": 1,
+      "binary": false,
+      "deleted": 1,
+      "new": ".github/workflows/ci.yml",
+      "old": ".github/workflows/ci.yml"
+    }
+  ],
+  "findings": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "reason": "outside_allowlist"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "reason": "denied_path"
+    }
+  ],
+  "within_scope": false
+}

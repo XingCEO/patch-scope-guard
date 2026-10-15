@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-label="Patch Scope Guard">
+<defs><linearGradient id="g"><stop stop-color="#0b1020"/><stop offset="1" stop-color="hsl(54,45%,20%)"/></linearGradient></defs>
+<rect width="1200" height="280" rx="20" fill="url(#g)"/>
+<circle cx="1100" cy="70" r="130" fill="none" stroke="hsl(54,75%,65%)" stroke-width="2" opacity=".4"/>
+<circle cx="1100" cy="70" r="90" fill="none" stroke="hsl(54,75%,65%)" stroke-width="2" opacity=".3"/>
+<text x="60" y="65" fill="hsl(54,85%,75%)" font-family="monospace" font-size="18" letter-spacing="4">XINGCEO / OPEN ENGINEERING</text>
+<text x="60" y="145" fill="#fff" font-family="system-ui,sans-serif" font-size="54" font-weight="700">Patch Scope Guard</text>
+<text x="60" y="205" fill="#cbd5e1" font-family="system-ui,sans-serif" font-size="21">Give coding agents a reviewable boundary for every proposed patch.</text>
+</svg>
